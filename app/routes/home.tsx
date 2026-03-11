@@ -3,11 +3,12 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Applio" },
+    { name: "description", content: "Smart analysis for your resume" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <main >
+    </main>;
 }
