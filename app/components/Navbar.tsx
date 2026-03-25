@@ -5,7 +5,7 @@ const Navbar: () => JSX.Element = () => {
     return (
         <nav className="navbar">
             <Link to="/">
-                <p className="text-2xl font-bold text-gradient">Applio</p>
+                <p className="text-xl font-bold text-gradient">Applio</p>
             </Link>
 
             <Link to="/upload" className="primary-button w-fit">
